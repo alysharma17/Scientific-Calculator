@@ -1,0 +1,77 @@
+body {
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+    background: linear-gradient(180deg, lightpink, lightblue);
+}
+
+.container {
+    width:650px;
+    height:300px;
+    padding:10px;
+    border-radius:8px;
+    box-shadow:10px 10px 30px lightcoral,
+              -10px -10px 30px lightcoral;
+}
+
+.display #screen {
+    width:97%;
+    height:70px;
+    font-size:35px;
+    outline:none;
+    border:none;
+    text-align:right;
+    padding-right:.5em;
+    background:rgb(255, 218, 255);
+    border-radius:6px;
+    box-shadow:inset 8px 8px 8px lightcyan,
+               inset -8px -8px 8px lightcyan;
+}
+
+.btns {
+    width:100%;
+    margin-top:1.7em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.btns .row button {
+    width:80px;
+    height:30px;
+    font-size:16px;
+    border:none;
+    outline:none;
+    margin:5px;
+    border-radius:4px;
+    box-shadow:5px 5px 8px lightgreen,
+               -5px -5px 8px lightgreen;
+               transition:.1s;
+}
+
+.btns .row button:hover {
+    box-shadow:inset 5px 5px 50px rgba(0, 217, 255, 0.452),
+    inset -5px -5px 50px rgba(0, 217, 255, 0.452);
+}
+
+
+.number {
+    background:linear-gradient(90deg, rgb(0, 153, 255), rgb(0, 47, 255));
+    color:white;
+}
+
+.control {
+    background:linear-gradient(90deg, yellow, gold)
+}
+
+.function {
+    background:linear-gradient(90deg, rgb(0, 191, 255), rgb(0, 255, 242))
+}
+
+.math {
+    background:linear-gradient(90deg, rgb(255, 82, 139), rgb(234, 3, 255))
+}
